@@ -1,0 +1,18 @@
+# Text files: stored with LF so the project behaves the same on Windows and Linux.
+* text=auto eol=lf
+
+# Binary files: never touch line endings.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.glb binary
+*.gltf binary
+*.ttf binary
+*.otf binary
+*.res binary
+*.scn binary

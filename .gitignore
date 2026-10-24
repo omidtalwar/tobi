@@ -1,0 +1,43 @@
+# ---- Godot ----
+# Editor cache and imported-asset cache (rebuilt automatically on open).
+.godot/
+# Android build template (installed per machine from the editor).
+/android/
+# Local settings overrides (used for testing only).
+override.cfg
+
+# ---- Godot engine binaries (download the right one on each machine) ----
+Godot_v*/
+Godot_v*.exe
+Godot_v*.zip
+*.x86_64
+
+# ---- Build output ----
+export/
+*.apk
+*.aab
+*.idsig
+*.pck
+
+# ---- Large source art (keep originals elsewhere; the game uses the
+# ---- optimised copies in assets/textures/) ----
+assets/texture/
+*.zip
+*.7z
+*.rar
+*.psd
+*.blend1
+
+# ---- Secrets: never commit signing keys or passwords ----
+*.keystore
+*.jks
+export_credentials.cfg
+.env
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+.vscode/
+.idea/
